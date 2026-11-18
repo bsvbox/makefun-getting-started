@@ -81,6 +81,14 @@ That scores your entry on the kit's practice data the way the server does, in th
 
 Tip: tell your agent to read [make.fun/skill.md](https://make.fun/skill.md) first. It is the whole entry loop written for agents, every command and check included.
 
+## Common mistakes to avoid
+
+- **Starting before the bounty opens.** A session that began before the opening cannot be entered, even if the code is good. Open a fresh session after the bounty opens.
+- **Pasting code in from somewhere else.** The checks match your transcripts against the code. Let your agent write the files; pasted code counts against you.
+- **Forgetting the license.** Every entry needs an OSI-approved license file, such as MIT, at the submitted commit.
+- **Submitting the wrong commit.** The commit you name is snapshotted at submission, and later pushes do not change the entry. Double-check the sha before you submit.
+- **Skipping the local check.** A rejected entry still counts toward the day's limit. Run `check` before you submit, not after.
+
 ## Step 5: Submit it
 
 Push your work, note the commit you want to enter, then bundle the transcripts from the kit's folder:
